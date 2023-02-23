@@ -190,6 +190,61 @@ We are also here to maintain your web application, where we have a support team 
 
       </div>
 
+      <section id="team" class="team">
+        <div class="container" data-aos="fade-up">
+      
+          <div class="section-title">
+            <h2>Our Team</h2>
+            <p>Meet our awesome team members!</p>
+          </div>
+      
+          <div class="row">
+      
+            <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
+              <div class="member" data-aos="fade-up" data-aos-delay="100">
+                <div  class="member-img text-center" >
+                  <img src="assets/img/testimonials/faris.jpg" class="img-fluid" alt="" style=" width: 50%; height: auto;">
+                </div>
+                <div class="member-info text-center">
+                  <h4>Faris Bektas</h4>
+                  <span>CEO</span>
+                  <p>John is responsible for overseeing the overall operations and strategy of the company.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
+              <div class="member" data-aos="fade-up" data-aos-delay="100">
+                <div  class="member-img text-center" >
+                  <img src="assets/img/testimonials/anel.jpg" class="img-fluid" alt="" style="width: 55%; height: auto;">
+                </div>
+                <div class="member-info text-center">
+                  <h4>Anel Kujovic</h4>
+                  <span>CEO</span>
+                  <p>John is responsible for overseeing the overall operations and strategy of the company.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
+              <div class="member" data-aos="fade-up" data-aos-delay="100">
+                <div  class="member-img text-center" >
+                  <img src="assets/img/testimonials/amina.jpg" class="img-fluid" alt="" style=" height: auto;">
+                </div>
+                <div class="member-info text-center">
+                  <h4>Amina Mehic</h4>
+                  <span>CEO</span>
+                  <p>John is responsible for overseeing the overall operations and strategy of the company.</p>
+                </div>
+              </div>
+            </div>
+      
+      
+          </div>
+      
+        </div>
+      </section>
+      
+
+
 
     <!-- ======= Portfolio Section ======= -->
     <section id="portfolio" class="portfolio">
@@ -362,36 +417,109 @@ We are also here to maintain your web application, where we have a support team 
       </div>
     </section><!-- End Frequently Asked Questions Section -->
 
-    <!-- ======= Contact Section ======= -->
+
+    
+
     <section id="contact" class="contact section-bg">
       <div class="container" data-aos="fade-up">
         <style>
+          .member-img img {
+            width: 130px; /* Adjust to your desired size */
+            height: 130px; /* Adjust to your desired size */
+            border-radius: 50%; /* Make the image circular */
+          }
           .center-boxes {
             display: flex;
             justify-content: center;
           }
+          .center-form {
+            display: flex;
+            justify-content: center;
+          }
+          .contact-form input,
+          .contact-form textarea {
+            border: none;
+            background: #f9f9f9;
+            margin-bottom: 20px;
+            width: 100%;
+            padding: 10px;
+            border-radius: 5px;
+            box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+          }
+          .contact-form textarea {
+            height: 150px;
+          }
+          .contact-form input:focus,
+          .contact-form textarea:focus {
+            background: #eee;
+          }
+          .contact-form button[type="submit"] {
+            background: #a89f9f;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background 0.3s ease-in-out;
+          }
+          .contact-form button[type="submit"]:hover {
+            background: #7d7171;
+          }
+          .info-box {
+            background: #f9f9f9;
+            padding: 20px;
+            box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            border-radius: 5px;
+            transition: transform 0.3s ease-in-out;
+          }
+          .info-box:hover {
+            transform: translateY(-5px);
+          }
+          .info-box i {
+            font-size: 48px;
+            margin-bottom: 15px;
+            color: #a89f9f;
+          }
+          .info-box h3 {
+            font-weight: 600;
+            font-size: 24px;
+            color: #4b4b4b;
+            margin-bottom: 15px;
+          }
+          .info-box p {
+            font-size: 14px;
+            color: #a89f9f;
+            margin-bottom: 0;
+          }
+          .contact p {
+            color: #353535;
+
+}
         </style>
-        
+    
         <div class="section-title">
-          <h2>Contact</h2>
-          <h3>Whether you're curious about projects, careers, or press - we'd love to hear from you!.</h3>
+          <h2>Contact Us</h2>
+          <h3>Whether you're curious about projects, careers, or press - we'd love to hear from you!</h3>
         </div>
-        
+    
         <div class="row center-boxes">
           <div class="col-lg-4">
             <div class="info-box mb-4">
               <i class="bx bx-phone-call"></i>
               <h3>Call Us</h3>
-              <p> +387 62 954 591</p>
+              <p>+387 62 954 591</p>
             </div>
           </div>
-        
+    
           <div class="col-lg-4">
-            <div class="info-box  mb-4">
+            <div class="info-box mb-4">
               <i class="bx bx-envelope"></i>
               <h3>Email Us</h3>
               <p>icadoradev@gmail.com</p>
             </div>
+          </div>
+    
           </div>
         </div>
         <style>
@@ -405,35 +533,13 @@ We are also here to maintain your web application, where we have a support team 
         <div class="row center-form">
 
   
-          <div class="col-lg-6">
-            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
-              <div class="row">
-                <div class="col-md-6 form-group">
-                  <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
-                </div>
-                <div class="col-md-6 form-group mt-3 mt-md-0">
-                  <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
-                </div>
-              </div>
-              <div class="form-group mt-3">
-                <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
-              </div>
-              <div class="form-group mt-3">
-                <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
-              </div>
-              <div class="my-3">
-                <div class="loading">Loading</div>
-                <div class="error-message"></div>
-                <div class="sent-message">Your message has been sent. Thank you!</div>
-              </div>
-              <div class="text-center"><button type="submit">Send Message</button></div>
-            </form>
+          <div class="col-lg-6 ">
+            <iframe class="mb-4 mb-lg-0" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1209.0548785761157!2d18.384836789554495!3d43.88414815627648!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4758ceba949bed43%3A0x7cf66a626a14a7b8!2sKenana%20Brkani%C4%87a%2010!5e0!3m2!1shr!2sba!4v1677190379604!5m2!1shr!2sba" frameborder="0" style="border:0; width: 100%; height: 384px;" allowfullscreen></iframe>
           </div>
-          
-
-        </div>
-
+ 
       </div>
+
+
     </section><!-- End Contact Section -->
 
   </main><!-- End #main -->

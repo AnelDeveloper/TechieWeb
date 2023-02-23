@@ -56,6 +56,8 @@
       headers: {'X-Requested-With': 'XMLHttpRequest'}
     })
     .then(response => {
+      console.log(formData)
+
       return response.text();
     })
     .then(data => {
